@@ -180,7 +180,8 @@ header .logo {
 }
 .thumbnail .item .content {
   position: absolute;
-  inset: auto 10px 10px 10px;
+  -webkit-box-shadow: 185px 10px 10px 10px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 185px 10px 10px 10px rgba(0, 0, 0, 0.5) inset;
 
   background-color: #f2efef94;
   display: flex;
